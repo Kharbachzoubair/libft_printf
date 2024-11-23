@@ -62,22 +62,23 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (count);
 }
-
+// #include <stdio.h>
 // int main()
 // {
-//     ft_printf("Testing char: [%c]\n", 'A');
-//     ft_printf("Testing char: [%c]\n", '\0'); 
-//     ft_printf("Testing string: [%s]\n", "Hello!");
-//     ft_printf("Testing string: [%s]\n", NULL);
-//     ft_printf("Testing int: [%d]\n", 12345);
-//     ft_printf("Testing int: [%d]\n", -12345);
-//     ft_printf("Testing int: [%d]\n", 0);
-//     ft_printf("Testing int: [%d]\n", 2147483647);
-//     ft_printf("Testing int: [%d]\n", -2147483648);
-//     ft_printf("Testing hex (lowercase): [%x]\n", 255);
-//     ft_printf("Testing hex (uppercase): [%X]\n", 255);
-//     ft_printf("Testing unsigned: [%u]\n", 4294967295);
-//     ft_printf("Testing pointer: [%p]\n", 123456);
-//     ft_printf("Testing pointer: [%p]\n", NULL);
-//     ft_printf("Printing percent: [%%]\n");
+//     // ft_printf("Testing char: [%c]\n", 'A');
+//     // ft_printf("Testing char: [%c]\n", '\0'); 
+//     // ft_printf("Testing string: [%s]\n", "Hello!");
+//     // ft_printf("Testing string: [%s]\n", NULL);
+//     // ft_printf("Testing int: [%d]\n", 12345);
+//     // ft_printf("Testing int: [%d]\n", -12345);
+//     // ft_printf("Testing int: [%d]\n", 0);
+//     // ft_printf("Testing int: [%d]\n", 2147483647);
+//     // ft_printf("Testing int: [%d]\n", -2147483648);
+//     // ft_printf("Testing hex (lowercase): [%x]\n", 255);
+//     // ft_printf("Testing hex (uppercase): [%X]\n", 255);
+//     // ft_printf("Testing unsigned: [%u]\n", 4294967295);
+//     // ft_printf("Testing pointer: [%p]\n", 123456);
+//     // ft_printf("Testing pointer: [%p]\n", NULL);
+//     // ft_printf("Printing percent: [%%]\n");
+// 	ft_printf(" %% %% ");
 // }
