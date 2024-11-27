@@ -1,11 +1,11 @@
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror 
 NAME = libftprintf.a
 SRCS = numfunctions.c strfunction.c ft_printf.c
 OBJS = ${SRCS:.c=.o}
 AR = ar
 
-%.o : %.c libft_printf.h
+%.o : %.c ft_printf.h
 	${CC} ${CFLAGS} -c $< -o $@
 
 all : ${NAME}

@@ -35,8 +35,8 @@ int main(void)
     printf("Len:[%d]\n", len);
     ft_printf("%s\n", str);
     printf("%s\n", str);
-    len = ft_printf("%");
-    len2 = printf("%");
+    len = ft_printf("%\n");
+    len2 = printf("%\n");
     printf("len[%d] == len[%d]\n", len, len2);
     len = ft_printf("%m\n");
     len2 = printf("%m\n");
