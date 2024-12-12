@@ -84,9 +84,11 @@ It supports formatted output with various conversion specifiers and flags.
 ### 🛠️ Development Notes
   ### Files:
 
-        ft_printf.c: Main function logic and format parsing.
-        ft_utils.c: Utility functions for output (e.g., number-to-string conversions).
-        ft_flags.c: Handles formatting like width and precision.
+    ft_printf.c: Main function logic and format parsing.
+    numfunctions.c: Functions for numeric conversions (e.g., handling %d and %x).
+    strfunctions.c: Functions for string manipulations and formatting.
+    makefile: Build configuration for the project.
+    printf.h: Header file containing function declarations and necessary includes.
 ---
 ### 👨‍💻 Author
 Zoubair Kharbach
